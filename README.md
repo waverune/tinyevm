@@ -1,10 +1,10 @@
-# minievm
+# tinyevm
 
 A minimal Ethereum Virtual Machine (EVM) implementation in pure Python, built for educational purposes and experimentation.
 
 ## Synopsis
 
-minievm is a lightweight, from-scratch EVM interpreter that executes Ethereum bytecode. It implements a subset of opcodes with correct uint256 arithmetic, stack/memory operations, and jump-destination validation. The codebase is deliberately small (~170 lines) and readable, making it suitable for learning how the EVM works under the hood.
+tinyevm is a lightweight, from-scratch EVM interpreter that executes Ethereum bytecode. It implements a subset of opcodes with correct uint256 arithmetic, stack/memory operations, and jump-destination validation. The codebase is deliberately small (~170 lines) and readable, making it suitable for learning how the EVM works under the hood.
 
 ## Features
 
@@ -110,7 +110,7 @@ Tests are self-contained (no pytest). The runner discovers all `test_*` function
 ## Project structure
 
 ```
-minievm/
+tinyevm/
 ├── README.md          <- This file
 ├── LICENSE            <- GPL-3.0
 ├── src/
